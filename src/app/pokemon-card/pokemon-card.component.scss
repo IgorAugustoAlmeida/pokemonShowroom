@@ -1,0 +1,162 @@
+:host{
+  display: flex;
+  flex-wrap: wrap;
+  place-content: space-evenly;
+}
+
+.pokemon-card{
+  display: flex;
+  flex-direction: column;
+  font-family: "Signika", arial, sans-serif;
+  margin: 0 5px 50px;
+  width: 215px;
+  
+  &__fontFormat{
+    margin-top: 5px;
+    text-align: center;
+    border: 1px solid black;
+    background: #d1d0d0;
+    border-radius: 12px;
+  }
+
+  &__image{
+    background: #F2F2F2;
+  }
+
+  &__number,
+  &__name{
+    padding: 0 10px;}
+
+  &__number{
+    color: #919191;
+    font-size: 80%;
+    padding-top: 2px;}
+
+  &__name{
+    color: #313131;
+    font-size: 145%;
+    margin: 0.5em 0 5px;
+    text-transform: capitalize;}
+
+  &__abilities{
+    display: flex;
+  }
+
+  &__abiliity{
+    margin-top: 3px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 12px;
+  }
+
+  &__types{
+    display: flex;}
+
+  &__type{
+    border-radius: 3px;
+    font-size: 11px;
+    line-height: 18px;
+    margin: 0 10px;
+    max-width: 110px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 38.4375%;
+
+    &--grass{
+      background: #9bcc50;
+      color: #212121;}
+
+    &--poison{
+      background: #b97fc9;
+      color: #FFFFFF;}
+
+    &--bug{
+      background: #729f3f;
+      color: #fff;}
+
+    &--dark{
+      
+      background: #707070;
+      color: #fff;}
+
+    &--dragon{
+      
+      background: #53a4cf;
+      color: #fff;}
+
+    &--electric{
+      
+      background: #eed535;
+      color: #212121;}
+
+    &--fairy{
+      
+      background: #fdb9e9;
+      color: #212121;}
+
+    &--fighting{
+      
+      background: #d56723;
+      color: #fff;}
+
+    &--fire{
+      
+      background: #fd7d24;
+      color: #fff;}
+
+    &--flying{
+      background: #3dc7ef;
+      color: #212121;}
+
+    &--ghost{
+      
+      background: #7b62a3;
+      color: #fff;}
+
+    &--grass{
+      
+      background: #9bcc50;
+      color: #212121;}
+
+    &--ground{
+      
+      background: #f7de3f;
+      color: #212121;}
+
+    &--ice{
+      
+      background: #51c4e7;
+      color: #212121}
+
+    &--normal{
+      
+      background: #a4acaf;
+      color: #212121;}
+
+    &--poison{
+      
+      background: #b97fc9;
+      color: #fff;}
+
+    &--psychic{
+      
+      background: #f366b9;
+      color: #fff;}
+
+    &--rock{
+      
+      background: #a38c21;
+      color: #fff;}
+
+    &--steel{
+      
+      background: #9eb7b8;
+      color: #212121;}
+
+    &--water{
+      
+      background: #4592c4;
+      color: #fff;
+    }
+  }
+}
